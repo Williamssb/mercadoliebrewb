@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="top-box">
+
+            <a href="/"><img src="/images/logo-mercado-liebre.svg"></a>
+                    
+            <div  class="search-bar">
+
+                <form  action="/search" method="get" target="_blank">
+
+                    <p>
+                        <input type="search" name="busquedam" placeholder="Buscar productos, marcas">
+                        <button> <i class="fas fa-search"></i></button>
+                    </p>
+
+                </form>
+
+            </div>
+
+            <h1 class="cuotas">
+                <a href="#"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</a>
+            </h1>
+        
+        </div>
+
+        <nav class="options-user">
+
+                <ul class="options">
+
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Tiendas Oficiales</a></li>
+                        <li><a href="#">Vender</a></li>
+                        <li><a href="#">Ayuda</a></li>
+
+                </ul>
+
+                <ul class="user">
+
+                        <li><a href="/register"></i>Creá tu cuenta<i class="far fa-id-card"></i></a></li>
+                        <li><a href="/login"></i>Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                        <li><a href="#"></i>Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+
+                </ul>
+
+        </nav>
+
+        <nav class="burger-menu"><i class="fas fa-bars"></i></nav>
+
+    </header>
+    
+    <div class="big-container2">
+
+        <form action="/registro" method="get" class="register2">
+
+            <div class="info">
+
+                <label>Registro</label><br>
+                <input type="text" placeholder="Nombre y apellido"><br><br>
+                <input type="text" placeholder="Nombre de usuario"><br><br>
+                <input type="email" placeholder="E-mail"><br><br>
+                <input type="password" placeholder="Contraseña"><br><br>
+                <input type="password" placeholder="Confirmar contraseña"><br><br>
+            
+            </div><br>
+
+
+            <div class="date-birth">
+
+                <label>Fecha de nacimiento</label><br>
+                <input type="date" placeholder="mm/dd/yyyy"><br>
+
+            </div><br>
+
+            <div class="adress">
+
+                <input type="text" placeholder="Domicilio"><br><br>
+
+            </div>
+
+            <div class="profile-user">
+
+            <div class="user-container">
+
+                <label>Perfil de usuario</label><br><br>
+                <input type="radio" value="comprador">Comprador<br>
+                <input type="radio" value="vendedor">Vendedor<br><br>
+
+            </div>
+
+            </div>
+
+            <div class="interests">
+
+                <label>Intereses</label><br>
+
+            <div class="interests-container">
+
+                <input type="checkbox" value="Electro">Electro<br>
+                <input type="checkbox" value="moda">Moda<br>
+                <input type="checkbox" value="hogar">Hogar<br>
+                <input type="checkbox" value="jugueteria">Jugueteria<br>
+                <input type="checkbox" value="vida-sana">Vida Sana<br><br>
+
+            </div>
+            
+            </div>
+
+            <div class="functions">
+
+                <button type="submit"><a href="/">Enviar</a></button>
+
+                <button type="reset">Borrar</button>
+            
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+@import url('normalize.css');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-style: none;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #eac926;
+    padding: 20px;
+    margin: auto;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+.top-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .top-box a img{
+    width: 50%;
+}
+
+.search-bar{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+.search-bar form p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-bar form p input{
+    width: 80%;
+    max-width: 250px;
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #FFF;    
+}
+
+.search-bar form p button{
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+.cuotas{
+    font-weight: 400px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    transition: color .5ms;
+}
+
+.cuotas:hover a{
+    color: #1259c3;
+}
+
+.options-user{
+    transition: color .5ms;
+}
+
+.options-user a:hover{
+    color: #1259c3;
+}
+
+.cuotas a{
+    text-decoration: none;
+}
+
+.options-user ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options-user a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.fa-id-card{
+    margin-left: 5px;
+}
+
+.fa-sign-in-alt{
+    margin-left: 5px;
+}
+
+.fa-shopping-basket{
+    margin-left: 5px;
+}
+
+.burger-menu{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    background-color: #1259c3;
+    color: #ffff;
+    border-radius: 25%;
+    text-align: center;
+    max-width: 50px;
+    padding: 15px 0;
+}
+
+.home-banner img{
+   width: 100%;
+   background-color: #ebebeb;
+}
+
+.box-first{  
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+.box-first article{   
+    margin: 10px auto;
+}
+
+.small-box{ 
+    position: relative;
+}
+
+.box-first section h2{
+    display: block;
+    padding-top: 15px;
+    width: 90%;
+    color: #666;
+    font-size: 24px;
+}
+
+.box-first article img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box-first article .small-box{
+    display: block;
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+.box-first article i{
+    display: block;
+    font-size: 16px;
+    color: #39b54a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    position: absolute;
+    right: 35px; 
+    top: -15px;  
+}
+
+.box-first article div .description{
+    display: flex;
+    flex-direction: row;
+}
+
+.description .a{
+    flex-grow: 0.05;
+}
+
+.description .b{
+    color: #39b54a;
+}
+
+.box-first article h4{
+    color: #666;
+}
+
+.big-container2{
+    display: flex;
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    padding: 30px;
+    background-color: #ebebee;
+}
+
+.big-container2 .info input{
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px;
+}
+
+.big-container2 .date-birth input{
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px;
+}
+
+.big-container2 .adress input{
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px;
+}
+
+.big-container2 .register2{
+    margin: auto;
+    width: 40%;
+}
+
+.big-container2 .register2 .info , .date-birth, .profile-user , .interests , .adress{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-user label{
+    display: flex;
+    justify-content: center;
+}
+
+.interests-container{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.interests-container input{
+    margin-bottom: 10px;
+}
+
+.user-container{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.user-container input{
+    margin-bottom: 10px;
+}
+
+.register2 label{
+    text-align: center;
+    font-size: 30px;
+}
+
+.big-container2 .functions{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+}
+
+.functions button{
+    height: 35px;
+    color: #FFF;
+    background-color: #1259c3;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.big-container1{
+    display: flex;
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    padding: 30px;
+    background-color: #ebebee;
+}
+
+.big-container1 .login{
+    margin: auto;
+    width: 40%;
+}
+
+.big-container1 .login2 input{
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px;
+}
+
+.big-container1 .login .login2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-container1 .login .login2 label{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.buttons-login button{
+    height: 35px;
+    color: #FFF;
+    background-color: #1259c3;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
+}
+
+footer{
+    background-color: #ebebeb;
+}
+
+.big-container3 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.big-container3 .center{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.big-container3 .center i{
+    color: #1259c3;
+    font-size: 30px;
+    transition: 450ms;
+}
+
+.big-container3 .center i:hover{
+    color: #083272;
+}
+
+
+@media(min-width: 361px){
+    .options-user{
+        display: none;
+    }
+
+    .home-banner{
+        margin-top: 266px;
+    }
+
+    header .top-box img{
+        width: 50%;
+        max-width: 400px;
+    }
+    
+    .search-bar{
+        width: 50%;
+    }
+    
+    .box:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);           
+    }
+
+    .box-first .boxes-article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box-first article{
+        width: 50%;
+    }
+
+    .big-container2 , .big-container1{
+        margin-top: 300px;
+    }
+}
+
+
+@media(min-width: 830px){
+    .burger-menu{
+        display: none;
+    }
+
+    .options-user{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .options-user ul{
+        display: flex;
+    }
+
+    .options-user li{
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .big-container2 , .big-container1{
+        margin-top: 230px;
+    }
+
+    .home-banner{
+        margin-top: 288px;
+    }
+
+    .box-first article{
+        width: 25%;
+    }
+
+    .box-first article {
+        width: 25%;
+    }
+
+    .box-display {
+        display: none;
+
+    }
+    .box:hover .box-display {
+        display: inline; 
+    }
+
+    .rotate {
+        transition: all, 450ms ;
+    }
+
+    .box:hover .rotate {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+}
+
+@media (min-width: 1200px){
+    .logo{
+        width: 250px;
+        padding: 0;
+    }
+
+    .top-box{
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .options-user{
+        max-width: 1200px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .cuotas{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h4{
+        display: flex;
+    }
+
+    .home-banner{
+        margin-top: 190px;
+    }
+
+    .big-container2 , .big-container1{
+        margin-top: 180px;
+    }
+
+    .options-user{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .options-user ul{
+        display: flex;
+    }
+
+    .options-user li{
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    header .top-box img{
+        width: 33%;
+    }
+
+    .search-bar{
+        width: 30%;
+    }
+}
