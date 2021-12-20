@@ -2,7 +2,7 @@ const express = require('express');
 const app = express('');
 const path = require('path');
 
-const staticFiles = express.static(path.join(__dirname, '/Public'));
+const staticFiles = express.static(path.join(__dirname, '/public'));
 app.use(staticFiles);
 
 app.listen(process.env.PORT || 3000, (req, res) => {
