@@ -10,7 +10,7 @@ app.listen(process.env.PORT || 3000, (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./views/index.html"));
+  res.sendFile(path.join(__dirname, "./views/home.html"));
 });
 
 app.get("/register", (req, res) => {
